@@ -12,3 +12,8 @@ setTimeout(showModal,3000)
 function showModal(){
 	document.getElementById('myModal').style.display = "block"
 }
+
+document.getElementsByTagName("button")[0].addEventListener("click", changeText);
+
+function changeText(){
+	document.getElementsByTagName

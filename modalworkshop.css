@@ -14,7 +14,7 @@
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: rgb(221,160,221);
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
@@ -40,13 +40,13 @@
 h1 {
     text-align:center;
     color: purple;
-    text-shadow: 0 -5px 1px rgba(0,0,0,0.25);
+    text-shadow: 0 -10px 1px rgba(0,0,0,0.25);
 }
 
 h2 {
     text-align: center;
     color: purple;
-    text-shadow: 0 -5px 1px rgba(0,0,0,0.25);
+    text-shadow: 0 -10px 1px rgba(0,0,0,0.25);
 }
 
 .George {
@@ -56,16 +56,19 @@ h2 {
     padding-bottom:50px;
     border-radius:50%;
     margin: 0 auto;
+    border-color: purple;
+    border-style: groove;
 
 }
 
 .main-text {
     background-color:purple;
     margin: 0 auto;
-    border: 5px;
+    border: 5px solid black;
     display: inline-block;
     padding: 20px;
     clear: left;
+    margin: 10px 10px;
 }
 #wrapper {
     width:80%;
@@ -75,3 +78,8 @@ h2 {
 body {
     background-color: #91e842;
 }
+
+.label {
+    margin: 5px;
+}
+
