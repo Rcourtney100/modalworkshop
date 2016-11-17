@@ -18,7 +18,8 @@
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 30%; /* Could be more or less, depending on screen size */
+    text-align: center;
 }
 
 /* The Close Button */
@@ -38,4 +39,39 @@
 
 h1 {
     text-align:center;
+    color: purple;
+    text-shadow: 0 -5px 1px rgba(0,0,0,0.25);
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    text-shadow: 0 -5px 1px rgba(0,0,0,0.25);
+}
+
+.George {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom:50px;
+    border-radius:50%;
+    margin: 0 auto;
+
+}
+
+.main-text {
+    background-color:purple;
+    margin: 0 auto;
+    border: 5px;
+    display: inline-block;
+    padding: 20px;
+    clear: left;
+}
+#wrapper {
+    width:80%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #91e842;
 }
