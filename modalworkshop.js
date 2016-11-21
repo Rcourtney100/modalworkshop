@@ -15,5 +15,5 @@ function showModal(){
 
 document.getElementsByTagName("button")[0].addEventListener("click", changeText);
 
-function changeText(){
-	document.getElementsByTagName
+// function changeText(){
+	// document.getElementsByTagName

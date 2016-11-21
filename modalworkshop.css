@@ -83,3 +83,10 @@ body {
     margin: 5px;
 }
 
+.social-icons{
+    height: 30px;
+    float: left;
+    width: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
